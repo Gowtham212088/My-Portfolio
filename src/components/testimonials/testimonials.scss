@@ -1,0 +1,173 @@
+@import "../../global.scss";
+
+.section-title {
+  margin: -5px 0 15px 0;
+  font-size: 2.5rem;
+  overflow: hidden;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  @include mobile {
+    font-size: 1rem;
+  }
+}
+.project {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 3em;
+  margin: 1rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaa;
+  font-family: "Poppins", sans-serif;
+  &::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: rgb(65, 201, 255);
+    margin: 4px 10px;
+  }
+  @include mobile {
+    font-size: 15px;
+    margin: 0;
+    padding: 12px;
+  }
+}
+
+.testimonials {
+  background-color: black;
+  display: flex;
+  padding: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  .section-title {
+    font-size: 2.5rem;
+    overflow: hidden;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    @include mobile {
+      font-size: 1rem;
+    }
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(65, 201, 255);
+    font-family: "Raleway", sans-serif;
+    @include mobile {
+      font-size: 15px;
+    }
+  }
+  
+  .container {
+    overflow: hidden;
+    background-color: rgb(15, 15, 15);
+    text-align: center;
+    border-radius: 1rem;
+    width: 500px;
+    min-height: 370px;
+    margin: 2rem;
+  }
+  
+  .banner-img {
+    background-image: url(https://img.freepik.com/free-vector/online-shopping-banner-mobile-app-templates-concept-flat-design_1150-34865.jpg?w=740);
+    height: 12rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(65, 201, 255);
+  }
+
+  .btn-cont{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+
+    
+  .btn {
+    border: none;
+    font-size: .9rem;
+    justify-content: center;
+    align-items: center;
+    padding: .1em;
+    margin: .5em;
+    padding: .2em;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(34, 34, 34);
+  }
+}
+
+  .description {
+    font-size: 1rem;
+    padding: .1em;
+    margin: .2rem;
+    color: #fff;
+    @include mobile {
+      font-size: 0.5rem;
+    } 
+  }
+  .banner-img1 {
+    background-image: url(https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg);
+    height: 12rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-img2 {
+    background-image: url(https://img.freepik.com/free-vector/blog-main-page-template_53876-88255.jpg?w=740);
+    height: 12rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-img3 {
+    background-image: url(https://img.freepik.com/free-psd/youtube-video-player-mockup-3d-style_204659-77.jpg?w=740);
+    height: 12rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-img4 {
+    background-image: url(https://raw.githubusercontent.com/Thiru-cse/Fullstack-Developer/main/My-Project-Screenshots/Thiru-Weather%20Si.png);
+    height: 12rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-img5 {
+    background-image: url(https://img.freepik.com/free-vector/organic-flat-blog-post-illustration-with-people_23-2148955260.jpg?w=740);
+    height: 12rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .banner-img6 {
+    background-image: url(https://img.freepik.com/free-vector/friends-video-calling-spending-good-time_23-2148498387.jpg?w=740);
+    height: 12rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
