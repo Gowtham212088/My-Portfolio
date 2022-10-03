@@ -33,7 +33,7 @@ export default function Testimonials() {
             <button
               class="btn"
               onClick={() =>
-                window.open("https://github.com/Thiru-cse/Netflix-Backend")
+                window.open("https://github.com/Gowtham212088/E-commerce-backend.git")
               }
             >
               Github BE <IoLogoGithub />
